@@ -4,6 +4,7 @@ import logo from "../../assets/blacklogo.png";
 const About = () => {
   return (
     <section className={style.section} id='About'>
+      <div className={style.espacio}></div>
       <div className={style.container}>
         <div className={style.info}>
           <div className={style.subtitulo}>
