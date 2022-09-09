@@ -1,44 +1,53 @@
 .container {
-  height: 5vh;
-  width: 100vw;
+  height: 10vh;
+  width: 100%;
   background-color: #000000c5;
-  display: flex;
-  align-items: center;
+  /*   display: flex;
+  justify-content: center;
+  align-items: center; */
   position: fixed;
   z-index: 100000000;
   top: 0px;
 }
 .botones {
   display: flex;
-  justify-content: flex-end;
-  padding: 10px;
-  margin-right: 50px;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  height: 5vh;
-  width: 100vw;
+  margin-top: -70px;
 }
-
 .links {
   margin-right: 1.2rem;
   cursor: pointer;
   font-family: monospace;
   font-size: 1.4rem;
   font-weight: bold;
-  padding-right: 15px;
+  padding-right: 7px;
+  padding-left: 7px;
   color: white;
   align-items: center;
 }
 
 .links:hover {
-  color: #b6bdba;
+  color: var(--orange);
+  border-bottom: 2px solid var(--orange);
 }
 .selectedLink {
   cursor: pointer;
   font-family: monospace;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  padding-right: 15px;
-
-  color: #1bd682;
+  padding-right: 7px;
+  padding-left: 7px;
+  color: var(--orange);
+  border-bottom: 2px solid var(--orange);
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.logo img {
+  height: 100px;
 }

@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #242424;
+  /*   background-color: #242424; */
 }
 
 code {
@@ -16,4 +16,7 @@ code {
 @font-face {
   font-family: kinsans;
   src: url("../kinsans.ttf");
+}
+:root {
+  --orange: rgb(254, 165, 89);
 }
