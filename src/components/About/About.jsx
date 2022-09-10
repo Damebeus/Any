@@ -17,9 +17,6 @@ const About = () => {
             lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
             <span>Lorem ipsum </span>
             dolor sit amet consectetur adipisicing elit. Vel iste expedita magni
-            quod, id dolorem, et doloribus, praesentium excepturi laboriosam
-            consequatur quibusdam natus cupiditate repellat molestiae
-            dignissimos sapiente impedit earum.
           </div>
           <div className={style.boton}>
             <button>
