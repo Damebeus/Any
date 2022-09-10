@@ -1,6 +1,6 @@
 .section {
   height: 50vh;
-  background-color: #000;
+  background-color: rgb(17, 17, 17);
 }
 .contenedor {
   max-height: 40vh;
@@ -59,6 +59,13 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+.comillas {
+  position: absolute;
+  right: 0;
+  margin-right: 20%;
+  margin-top: 50px;
+  opacity: 40%;
 }
 @keyframes float {
   0% {

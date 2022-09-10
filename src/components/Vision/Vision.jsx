@@ -20,9 +20,9 @@ const Vision = () => {
           <img src={our} />
         </div>
         <div className={style.columna2}>
-          {/*  <div className={style.comillas}>
+          <div className={style.comillas}>
             <img src={comillas} />
-          </div> */}
+          </div>
           <div className={style.titulo}>
             <h1>Our Vision</h1>
           </div>
