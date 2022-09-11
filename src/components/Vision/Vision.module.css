@@ -1,6 +1,7 @@
 .section {
   height: 50vh;
-  background-color: rgb(17, 17, 17);
+  /*   background-color: rgb(17, 17, 17); */
+  background-color: black;
 }
 .contenedor {
   max-height: 40vh;
@@ -70,14 +71,14 @@
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
+    transform: translatey(5px);
   }
   50% {
     box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px);
+    transform: translatey(-30px);
   }
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
+    transform: translatey(5px);
   }
 }

@@ -1,0 +1,123 @@
+.espacio {
+  height: 10vh;
+}
+.container {
+  height: 85vh;
+}
+.titulo {
+  text-transform: uppercase;
+  font-family: "Kinsans";
+  font-size: 35px;
+  font-weight: bold;
+  color: #898d8b;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.titulo h1 {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  border-bottom: solid 7px var(--orange);
+}
+.columnas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 5%;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+
+  user-select: none;
+}
+.formInput input {
+  border-image: none;
+  border-color: transparent;
+  border-bottom: 2px solid var(--orange);
+  outline: none;
+  width: 350px;
+}
+
+.nombres {
+  /*   background-color: wheat; */
+  display: flex;
+  justify-content: space-between;
+}
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.formGroup {
+  margin-bottom: 30px;
+  position: relative;
+  user-select: none;
+}
+.formGroup input,
+textarea {
+  font-size: 17px;
+}
+.formGroup input:focus {
+  border-bottom: 2px solid var(--blue);
+}
+.formGroup textarea:focus {
+  border: 2px solid var(--blue);
+}
+.formGroup textarea {
+  user-select: none;
+  resize: vertical;
+  width: 800px;
+  border: 2px solid var(--orange);
+  /* margin-top: 10px; */
+}
+
+.formGroup label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 16px;
+  cursor: text;
+  transition: 0.2s;
+  user-select: none;
+  margin-left: 15px;
+  font-size: monospace;
+}
+.formGroup input:focus ~ label,
+.formGroup input:valid ~ label,
+.formGroup textarea:focus ~ label,
+.formGroup textarea:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+}
+.boton {
+  display: flex;
+  justify-content: flex-end;
+}
+.boton button {
+  background-color: transparent;
+  width: 150px;
+  margin-top: 20px;
+  background-color: var(--orange);
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 35px;
+  padding: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.boton span {
+  font-size: 15px;
+}
+.boton button:hover {
+  transform: scale(1.1);
+  /*  width: 200px; */
+}
