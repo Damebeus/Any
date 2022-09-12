@@ -69,7 +69,7 @@ const Contact = () => {
 
                 <label htmlFor='message'> Message </label>
               </div>
-              <div className={style.boton} data-aos='fade-up'>
+              <div className={style.boton} data-aos='fade-right'>
                 <button type='submit' disabled={state.submitting}>
                   <span>Send</span>
                 </button>
