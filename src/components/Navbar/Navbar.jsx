@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import style from "./Navbar.module.css";
 import logo from "../../assets/horizontalblack.png";
 
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+  const changeBgc = () => {
+    if (window.scrollY >= 100) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeBgc);
+
   return (
-    <div className={style.container}>
+    <div className={navbar ? style.container : style.container2}>
       <div className={style.logo}>
         <img src={logo} />
       </div>
