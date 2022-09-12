@@ -14,12 +14,19 @@
 }
 .acordion {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 100px;
+  justify-content: center;
+  margin-top: 50px;
 }
-.columna1 {
+.menu1 {
+  width: 500px;
+
+  padding: 25px;
+}
+.menu2 {
+  padding: 25px;
   width: 500px;
 }
-.columna2 {
-  width: 500px;
+
+.individual {
+  margin-bottom: 20px;
 }

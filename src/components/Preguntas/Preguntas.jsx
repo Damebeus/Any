@@ -1,6 +1,10 @@
-import React from "react";
 import style from "./Preguntas.module.css";
-import Accordion from "react-bootstrap/Accordion";
+import * as React from "react";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Preguntas = () => {
   return (
@@ -10,118 +14,157 @@ const Preguntas = () => {
         <div className={style.titulo}>
           <h1>Here you can find some frequently asked questions</h1>
         </div>
-        <div className={style.acordion}>
-          <div className={style.columna1}>
-            <Accordion>
-              <Accordion.Item eventKey='0'>
-                <Accordion.Header>Accordion Item #1</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='1'>
-                <Accordion.Header>Accordion Item #2</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='2'>
-                <Accordion.Header>Accordion Item #3</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='3'>
-                <Accordion.Header>Accordion Item #4</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
-          </div>
-          <div className={style.columna2}>
-            <Accordion>
-              <Accordion.Item eventKey='4'>
-                <Accordion.Header>Accordion Item #5</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='5'>
-                <Accordion.Header>Accordion Item #6</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='6'>
-                <Accordion.Header>Accordion Item #7</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='7'>
-                <Accordion.Header>Accordion Item #8</Accordion.Header>
-                <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
+        <div>
+          <div className={style.acordion}>
+            <div className={style.menu1}>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel1a-content'
+                    id='panel1a-header'
+                  >
+                    <Typography>Accordion 1</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel2a-content'
+                    id='panel2a-header'
+                  >
+                    <Typography>Accordion 2</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel2a-content'
+                    id='panel2a-header'
+                  >
+                    <Typography>Accordion 2</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel2a-content'
+                    id='panel2a-header'
+                  >
+                    <Typography>Accordion 2</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+            </div>
+
+            <div className={style.menu2}>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel1a-content'
+                    id='panel1a-header'
+                  >
+                    <Typography>Accordion 1</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel2a-content'
+                    id='panel2a-header'
+                  >
+                    <Typography>Accordion 2</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel2a-content'
+                    id='panel2a-header'
+                  >
+                    <Typography>Accordion 2</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+              <div className={style.individual}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls='panel2a-content'
+                    id='panel2a-header'
+                  >
+                    <Typography>Accordion 2</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+            </div>
           </div>
         </div>
       </div>
