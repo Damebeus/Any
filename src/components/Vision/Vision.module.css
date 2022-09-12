@@ -1,5 +1,5 @@
 .section {
-  height: 50vh;
+  height: 55vh;
   /*   background-color: rgb(17, 17, 17); */
   background-color: black;
 }
@@ -64,7 +64,7 @@
 .comillas {
   position: absolute;
   right: 0;
-  margin-right: 20%;
+  margin-right: 5%;
   margin-top: 50px;
   opacity: 40%;
 }
