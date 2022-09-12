@@ -1,5 +1,14 @@
+.section {
+  background: rgb(189, 184, 184);
+  background: linear-gradient(
+    0deg,
+    rgba(196, 190, 190, 0.776) 0%,
+    rgba(255, 255, 255, 1) 81%
+  );
+}
 .espacio {
   height: 10vh;
+  background: #000;
 }
 .container {
   height: 85vh;
@@ -43,6 +52,7 @@
   border-bottom: 2px solid var(--orange);
   outline: none;
   width: 350px;
+  background-color: transparent;
 }
 
 .nombres {
@@ -63,6 +73,7 @@
 .formGroup input,
 textarea {
   font-size: 17px;
+  background-color: transparent;
 }
 .formGroup input:focus {
   border-bottom: 2px solid var(--blue);
@@ -107,7 +118,7 @@ textarea {
   width: 150px;
   margin-top: 20px;
   background-color: var(--orange);
-  border: 2px solid #fff;
+  border: 2px solid transparent;
   color: #fff;
   border-radius: 35px;
   padding: 15px;

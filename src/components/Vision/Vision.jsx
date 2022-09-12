@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import style from "./Vision.module.css";
 import comillas from "../../assets/comillas.png";
 import our from "../../assets/our.png";
 import left from "../../assets/lefthand.png";
 import right from "../../assets/righthand.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Vision = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000, once: true });
+  }, []);
+
   return (
     <section className={style.section} id='Vision'>
       <div className={style.contenedor}>
         <div className={style.columna1}>
-          <div className={style.animaciones}>
+          <div className={style.animaciones} data-aos='fade-up'>
             <div className={style.izquierda}>
               <img src={left} />
             </div>
@@ -19,7 +26,7 @@ const Vision = () => {
           </div>
           <img src={our} />
         </div>
-        <div className={style.columna2}>
+        <div className={style.columna2} data-aos='fade-left'>
           <div className={style.comillas}>
             <img src={comillas} />
           </div>

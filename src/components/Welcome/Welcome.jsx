@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import video from "../../assets/bgv.mp4";
 import style from "./Welcome.module.css";
 const Welcome = () => {
@@ -15,7 +16,7 @@ const Welcome = () => {
             type='video/mp4'
           />
         </div>
-        <div className={style.subcontainer}>
+        <div className={style.subcontenedor}>
           <div className={style.slogan}>
             <h2>committed to your work</h2>
           </div>
@@ -30,9 +31,11 @@ const Welcome = () => {
             </ul>
           </div>
           <div className={style.boton}>
-            <button>
-              <span>read more</span>
-            </button>
+            <Link to='About' spy={true} smooth={true} duration={800}>
+              <button>
+                <span>read more</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

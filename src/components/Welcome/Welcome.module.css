@@ -21,7 +21,7 @@
   height: 105vh;
   transform: translate(-50%, -50%);
 }
-.subcontainer {
+.subcontenedor {
   position: absolute;
   /*   background-color: rgb(59, 59, 10); */
   width: 70%;
@@ -45,9 +45,9 @@
   color: #fff;
   letter-spacing: 5px;
   font-size: 12px;
-  font-family: monospace;
   text-transform: uppercase;
   width: 40%;
+  font-family: monospace;
 }
 .boton button {
   position: absolute;

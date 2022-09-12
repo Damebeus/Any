@@ -1,0 +1,25 @@
+.espacio {
+  height: 10vh;
+  /* background: rgb(189, 10, 10); */
+}
+.container {
+  height: 90vh;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: "Kinsans";
+  font-size: 30px;
+  margin-top: 100px;
+}
+.acordion {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.columna1 {
+  width: 500px;
+}
+.columna2 {
+  width: 500px;
+}

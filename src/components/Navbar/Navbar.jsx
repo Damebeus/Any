@@ -43,6 +43,16 @@ const Navbar = () => {
         <Link
           activeClass={style.selectedLink}
           className={style.links}
+          to='Preguntas'
+          spy={true}
+          smooth={true}
+          duration={800}
+        >
+          Questions
+        </Link>
+        <Link
+          activeClass={style.selectedLink}
+          className={style.links}
           to='Contact'
           spy={true}
           smooth={true}
