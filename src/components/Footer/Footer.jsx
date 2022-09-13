@@ -7,15 +7,12 @@ const Footer = () => {
   return (
     <div className={style.container}>
       <div className={style.gradiante}>
-        <div className={style.titulo}>
-          <h1>ANY CPU TECHNOLOGY</h1>
-        </div>
         <div className={style.info}>
           <div className={style.subtitulo}>
+            <h1>ANY CPU TECHNOLOGY</h1>
             <h2>
-              Con un equipo de desarrolladores con mas de 10 años de
-              experiencia, buscando la solucion mas optima a los problemas de
-              los clientes
+              Con mas de 10 años de experiencia, buscando la solucion mas optima
+              a los problemas de los clientes
             </h2>
           </div>
           <div className={style.contacto}>
