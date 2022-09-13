@@ -1,4 +1,99 @@
 .container {
-  background-color: wheat;
-  height: 25vh;
+  height: 38vh;
+}
+
+.gradiante {
+  background: rgb(44, 56, 146);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 56, 146, 1) 32%,
+    rgba(75, 156, 219, 1) 100%
+  );
+  height: 30vh;
+}
+.titulo {
+  position: absolute;
+  display: flex;
+  margin-left: 210px;
+
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.black {
+  background-color: var(--grisaseo);
+  position: absolute;
+  height: 10vh;
+  width: 60%;
+  right: 0;
+  margin-top: -50px;
+}
+.container p {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  height: 40px;
+}
+.links {
+  margin-right: 1.2rem;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-right: 7px;
+  padding-left: 7px;
+  color: white;
+  text-decoration: none !important;
+  align-items: center;
+}
+
+.links:hover {
+  color: rgba(75, 156, 219, 1);
+}
+.botones {
+  display: flex;
+  height: 100%;
+  margin-left: 20px;
+  align-items: center;
+}
+.contacto li {
+  color: white;
+  list-style: none;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI";
+  width: 800px;
+  margin-left: 210px;
+  height: 300px;
+  /*   background-color: yellow; */
+}
+.subtitulo {
+  cursor: crosshair;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  width: 400px;
+}
+.subtitulo h2 {
+  font-weight: 400;
+}
+.botoncitos {
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+}
+.botoncitos a {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.botoncitos a:hover {
+  color: var(--grisaseo);
+  transition: 0.5s;
 }
