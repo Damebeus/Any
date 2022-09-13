@@ -37,8 +37,8 @@
 }
 
 .links:hover {
-  color: var(--orange);
-  border-bottom: 2px solid var(--orange);
+  color: var(--naranjita);
+  border-bottom: 2px solid var(--naranjita);
 }
 .selectedLink {
   cursor: pointer;
@@ -47,8 +47,8 @@
   font-weight: bold;
   padding-right: 7px;
   padding-left: 7px;
-  color: var(--orange);
-  border-bottom: 2px solid var(--orange);
+  color: var(--naranjita);
+  border-bottom: 2px solid var(--naranjita);
 }
 .logo {
   display: flex;
