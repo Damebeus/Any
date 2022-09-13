@@ -9,7 +9,7 @@
     rgba(44, 56, 146, 1) 32%,
     rgba(75, 156, 219, 1) 100%
   );
-  height: 35vh;
+  height: 30vh;
 }
 .gradiante h1 {
   display: flex;
@@ -95,4 +95,9 @@
 .botoncitos a:hover {
   color: var(--grisaseo);
   transition: 0.5s;
+}
+@media screen and (max-height: 655px) {
+  .gradiante {
+    height: 40vh;
+  }
 }

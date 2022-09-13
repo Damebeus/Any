@@ -119,3 +119,8 @@ p {
     margin-top: 0px;
   }
 }
+@media screen and (max-height: 655px) {
+  .subcontenedor {
+    margin-top: 15%;
+  }
+}

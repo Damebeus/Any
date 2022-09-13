@@ -133,3 +133,19 @@ textarea {
   transform: scale(1.1);
   /*  width: 200px; */
 }
+
+@media screen and (max-height: 655px) {
+  .titulo {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  .columnas {
+    margin-top: 1%;
+  }
+  .contacto {
+    margin-top: 5px;
+  }
+  .boton button {
+    margin-top: -10px;
+  }
+}
