@@ -5,6 +5,7 @@
     rgba(201, 194, 194, 0.776) 0%,
     rgba(255, 255, 255, 1) 81%
   );
+  min-height: 440px;
 }
 .espacio {
   height: 10vh;
@@ -12,6 +13,7 @@
 .container {
   width: 90%;
   height: 45vh;
+
   margin-top: 1%;
   margin-left: 5%;
   display: flex;

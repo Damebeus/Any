@@ -1,5 +1,6 @@
 .section {
   height: 60vh;
+  min-height: 440px;
   /*   background-color: rgb(17, 17, 17); */
   background-color: black;
 }
