@@ -21,3 +21,7 @@ code {
   --naranjita: #f4615a;
   --grisaseo: #1f2b41;
 }
+*::selection {
+  background: #4066ac;
+  color: rgb(0, 0, 0);
+}

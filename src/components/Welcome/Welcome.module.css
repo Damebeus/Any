@@ -51,6 +51,7 @@
   font-family: monospace;
 }
 .boton button {
+  user-select: none;
   position: absolute;
   background-color: transparent;
   width: 150px;

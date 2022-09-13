@@ -1,0 +1,38 @@
+.espacio {
+  height: 10vh;
+}
+
+.columna1 h1 {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-top: -50px;
+  margin-left: 50px;
+  color: #898d8b;
+  font-size: 30px;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.item {
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.item h2 {
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  padding-bottom: 7px;
+}
+.item span {
+  margin-top: 5px;
+}
+.columna2 {
+  margin-top: 50px;
+}
