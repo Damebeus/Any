@@ -103,8 +103,11 @@
   color: var(--grisaseo);
   transition: 0.5s;
 }
-@media screen and (max-height: 655px) {
+@media screen and (max-height: 699px) {
   .gradiante {
     height: 40vh;
+  }
+  .container {
+    height: 45vh;
   }
 }

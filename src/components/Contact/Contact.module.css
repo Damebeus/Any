@@ -1,10 +1,5 @@
 .section {
-  background: rgb(235, 229, 229);
-  background: linear-gradient(
-    90deg,
-    rgba(235, 229, 229, 1) 7%,
-    rgba(241, 241, 241, 1) 100%
-  );
+  background-color: #fff;
 }
 .espacio {
   height: 10vh;
@@ -136,7 +131,7 @@ textarea {
   /*  width: 200px; */
 }
 
-@media screen and (max-height: 655px) {
+@media screen and (max-height: 699px) {
   .titulo {
     margin-top: 15px;
     font-size: 25px;
@@ -149,5 +144,8 @@ textarea {
   }
   .boton button {
     margin-top: -10px;
+  }
+  .container {
+    margin-bottom: 42vh;
   }
 }

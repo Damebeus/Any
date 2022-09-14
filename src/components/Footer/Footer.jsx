@@ -51,12 +51,12 @@ const Footer = () => {
             <Link
               activeClass={style.selectedLink}
               className={style.links}
-              to='Projects'
+              to='Servicios'
               spy={true}
               smooth={true}
               duration={800}
             >
-              Projects
+              Services
             </Link>
             <Link
               activeClass={style.selectedLink}
