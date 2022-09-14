@@ -36,3 +36,14 @@
 .columna2 {
   margin-top: 50px;
 }
+/* .columna2 img {
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

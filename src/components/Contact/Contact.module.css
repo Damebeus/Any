@@ -1,9 +1,9 @@
 .section {
-  background: rgb(189, 184, 184);
+  background: rgb(235, 229, 229);
   background: linear-gradient(
-    0deg,
-    rgba(196, 190, 190, 0.776) 0%,
-    rgba(255, 255, 255, 1) 81%
+    90deg,
+    rgba(235, 229, 229, 1) 7%,
+    rgba(241, 241, 241, 1) 100%
   );
 }
 .espacio {

@@ -1,3 +1,11 @@
+.section {
+  background: rgb(241, 241, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 241, 241, 1) 7%,
+    rgba(235, 229, 229, 1) 100%
+  );
+}
 .espacio {
   height: 10vh;
   /* background: rgb(189, 10, 10); */
