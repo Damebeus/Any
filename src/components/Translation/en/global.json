@@ -1,0 +1,55 @@
+{
+    "NavBar":{
+        "Home":"Home",
+        "About":"About",
+        "Services":"Services",
+        "Questions":"Questions",
+        "Contact":"Contact"
+    },
+    "Welcome":{
+        "Subtitulo":"committed to your work",
+        "Titulo":"software engineer",
+        "Seguridad":"security",
+        "Dedicacion":"dedication",
+        "Calidad":"quality",
+        "Boton": "read more"
+    },
+    "About":{
+        "Slogan":"WE OFFER THE CONFIDENCE YOU NEED",
+        "Boton": "Contact me"
+    },
+    "Vision":{
+        "Titulo":"Our Vision"
+        
+    },
+    "Servicios":{
+        "Titulo":"Our services",
+        "Item1": "Software Engineering",
+        "Item2": "Informatic security",
+        "Item3": "Program Maintenance",
+        "Item4": "Web design",
+        "Item5": "Custom Jobs",
+        "Item6": "Update"
+    },
+    "Clientes":{
+        "Titulo":"Our clients"
+    },
+    "Preguntas":{
+        "Titulo":"Here you can find some frequently asked questions"
+    } ,
+    "Contacto":{
+        "Titulo":"Contact",
+        "Nombre":"Name",
+        "Apellido":"Surname",
+        "Numero":"Number",
+        "Correo":"E-mail",
+        "Mensaje":"Message",
+        "Boton":"Send"
+    },
+    "Footer":{
+        "Experiencia": "With more than 10 years of experience, looking for the most optimal solution to customer problems",
+        "Telefono": "Phone : +12 34567898",
+        "Email": "E.mail: anytechno@gmail.com",
+        "Direccion":"Address: Avenida Siempreviva 123"
+    }
+}

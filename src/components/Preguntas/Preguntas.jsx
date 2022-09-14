@@ -5,14 +5,17 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useTranslation } from "react-i18next";
 
 const Preguntas = () => {
+  const { t, i18n } = useTranslation("global");
+
   return (
     <section className={style.section} id='Preguntas'>
       <div className={style.espacio}></div>
       <div className={style.container}>
         <div className={style.titulo}>
-          <h1>Here you can find some frequently asked questions</h1>
+          <h1>{t("Preguntas.Titulo")}</h1>
         </div>
         <div>
           <div className={style.acordion}>

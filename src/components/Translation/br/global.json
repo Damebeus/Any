@@ -1,0 +1,57 @@
+{
+    "NavBar":{
+        "Home":"Cardápio",
+        "About":"Nós",
+        "Services":"Serviços",
+        "Questions":"Perguntas",
+        "Contact":"Contato"
+    },
+    "Welcome":{
+        "Subtitulo":"comprometido com o seu trabalho",
+        "Titulo":"engenheiro de software",
+        "Seguridad":"segurança",
+        "Dedicacion":"dedicação",
+        "Calidad":"qualidade",
+        "Boton": "consulte Mais "
+    },
+    "About":{
+        "Slogan":"OFERECEMOS A CONFIANÇA QUE VOCÊ PRECISA",
+        "Boton": "Contate-Nos"
+    },
+    "Vision":{
+        "Titulo":"nossa visão"
+        
+    },
+    "Servicios":{
+        "Titulo":"Nossos serviços",
+        "Item1": "Engenharia de software",
+        "Item2": "Segurança informática",
+        "Item3": "Manutenção do programa",
+        "Item4": "Desenho web",
+        "Item5": "Trabalhos personalizados",
+        "Item6": "Atualizar"
+    },
+    "Clientes":{
+        "Titulo":"Nossos clientes"
+    },
+    "Preguntas":{
+        "Titulo":"Aqui você encontra algumas perguntas frequentes"
+    },
+    "Contacto":{
+        "Titulo":"Contato",
+        "Nombre":"Nome",
+        "Apellido":"Sobrenome",
+        "Numero":"Número",
+        "Correo":"E-mail",
+        "Mensaje":"Mensagem",
+        "Boton":"Mandar"
+    },
+    "Footer":{
+        "Experiencia": "Com mais de 10 anos de experiência, procurando a melhor solução para os problemas do cliente",
+        "Telefono": "Telefone : +12 34567898",
+        "Email": "E-mail: anytechno@gmail.com",
+        "Direccion":"Endereço: Avenida Siempreviva 123"
+    }
+
+
+}

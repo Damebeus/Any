@@ -3,20 +3,26 @@ import style from "./Clientes.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTranslation } from "react-i18next";
+
 const Clientes = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3000,
   };
+  const { t, i18n } = useTranslation("global");
+
   return (
     <section className={style.section} id='Clientes'>
       <div className={style.espacio}></div>
 
       <div className={style.container}>
-        <h2> Nuestros clientes </h2>
+        <h2> {t("Clientes.Titulo")}</h2>
         <Slider {...settings}>
           <div className={style.item}>
             <div className={style.info}>

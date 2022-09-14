@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import style from "./Navbar.module.css";
 import logo from "../../assets/horizontalblack.png";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation("global");
   const [navbar, setNavbar] = useState(false);
   const changeBgc = () => {
     if (window.scrollY >= 100) {
@@ -28,7 +30,7 @@ const Navbar = () => {
           smooth={true}
           duration={800}
         >
-          Home
+          {t("NavBar.Home")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -38,7 +40,7 @@ const Navbar = () => {
           smooth={true}
           duration={800}
         >
-          About
+          {t("NavBar.About")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -48,7 +50,7 @@ const Navbar = () => {
           smooth={true}
           duration={800}
         >
-          Services
+          {t("NavBar.Services")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -58,7 +60,7 @@ const Navbar = () => {
           smooth={true}
           duration={800}
         >
-          Questions
+          {t("NavBar.Questions")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -68,7 +70,7 @@ const Navbar = () => {
           smooth={true}
           duration={800}
         >
-          Contact
+          {t("NavBar.Contact")}
         </Link>
       </div>
     </div>

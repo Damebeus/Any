@@ -1,7 +1,11 @@
 import React from "react";
 import style from "./Servicios.module.css";
 import engranaje from "../../assets/engranaje.png";
+import { useTranslation } from "react-i18next";
+
 const Servicios = () => {
+  const { t, i18n } = useTranslation("global");
+
   return (
     <section className={style.section} id='Servicios'>
       <div className={style.espacio}></div>
@@ -11,9 +15,9 @@ const Servicios = () => {
 
         <div className={style.subcontainer}>
           <div className={style.columna1}>
-            <h1>Nuestros servicios</h1>
+            <h1>{t("Servicios.Titulo")}</h1>
             <div className={style.item}>
-              <h2>Ingenieria de Software</h2>
+              <h2>{t("Servicios.Item1")}</h2>
               <span>
                 lorem Ips incorrectly interpreted text lorem Ips incorrectly
                 interpreted text lorem Ips incorrectly interpreted text lorem
@@ -21,7 +25,7 @@ const Servicios = () => {
               </span>
             </div>
             <div className={style.item}>
-              <h2>Seguridad informatica</h2>
+              <h2>{t("Servicios.Item2")}</h2>
               <span>
                 {" "}
                 lorem Ips incorrectly interpreted text lorem Ips incorrectly
@@ -30,7 +34,7 @@ const Servicios = () => {
               </span>
             </div>
             <div className={style.item}>
-              <h2>Mantenimiento de programas</h2>
+              <h2>{t("Servicios.Item3")}</h2>
               <span>
                 {" "}
                 lorem Ips incorrectly interpreted text lorem Ips incorrectly
@@ -44,7 +48,7 @@ const Servicios = () => {
           </div>
           <div className={style.columna3}>
             <div className={style.item}>
-              <h2>Diseño web</h2>
+              <h2>{t("Servicios.Item4")}</h2>
               <span>
                 lorem Ips incorrectly interpreted text lorem Ips incorrectly
                 interpreted text lorem Ips incorrectly interpreted text lorem
@@ -52,7 +56,7 @@ const Servicios = () => {
               </span>
             </div>
             <div className={style.item}>
-              <h2>Trabajos Personalizados</h2>
+              <h2>{t("Servicios.Item5")}</h2>
               <span>
                 {" "}
                 lorem Ips incorrectly interpreted text lorem Ips incorrectly
@@ -61,7 +65,7 @@ const Servicios = () => {
               </span>
             </div>
             <div className={style.item}>
-              <h2>Mantenimiento y actualizacion</h2>
+              <h2>{t("Servicios.Item6")}</h2>
               <span>
                 {" "}
                 lorem Ips incorrectly interpreted text lorem Ips incorrectly

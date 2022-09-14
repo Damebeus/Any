@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 import style from "./Vision.module.css";
 import comillas from "../../assets/comillas.png";
@@ -7,7 +8,10 @@ import left from "../../assets/lefthand.png";
 import right from "../../assets/righthand.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 const Vision = () => {
+  const { t, i18n } = useTranslation("global");
+
   useEffect(() => {
     Aos.init({ duration: 3000, once: true });
   }, []);
@@ -31,7 +35,7 @@ const Vision = () => {
             <img src={comillas} />
           </div>
           <div className={style.titulo}>
-            <h1>Our Vision</h1>
+            <h1> {t("Vision.Titulo")}</h1>
           </div>
           <div className={style.subtitulo}>
             "lorem ipsum dolor sit amet, consectetur adip occ occurence velit "

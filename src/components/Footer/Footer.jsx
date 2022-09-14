@@ -3,7 +3,11 @@ import { Link } from "react-scroll";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import style from "./Footer.module.css";
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
+  const { t, i18n } = useTranslation("global");
+
   return (
     <section className={style.section} id='Footer'>
       <div className={style.container}>
@@ -11,16 +15,13 @@ const Footer = () => {
           <div className={style.info}>
             <div className={style.subtitulo}>
               <h1>ANY CPU TECHNOLOGY</h1>
-              <h2>
-                Con mas de 10 años de experiencia, buscando la solucion mas
-                optima a los problemas de los clientes
-              </h2>
+              <h2>{t("Footer.Experiencia")}</h2>
             </div>
             <div className={style.contacto}>
               <ul>
-                <li>Telefono : +12 34567898</li>
-                <li>Email: anytechno@gmail.com</li>
-                <li>Direccion: Avenida Siempreviva 123</li>
+                <li> {t("Footer.Telefono")}</li>
+                <li> {t("Footer.Email")}</li>
+                <li>{t("Footer.Direccion")}</li>
               </ul>
             </div>
             <div className={style.botoncitos}>
@@ -46,7 +47,7 @@ const Footer = () => {
               smooth={true}
               duration={800}
             >
-              About
+              {t("NavBar.About")}
             </Link>
             <Link
               activeClass={style.selectedLink}
@@ -56,7 +57,7 @@ const Footer = () => {
               smooth={true}
               duration={800}
             >
-              Services
+              {t("NavBar.Services")}
             </Link>
             <Link
               activeClass={style.selectedLink}
@@ -66,7 +67,7 @@ const Footer = () => {
               smooth={true}
               duration={800}
             >
-              Questions
+              {t("NavBar.Questions")}
             </Link>
             <Link
               activeClass={style.selectedLink}
@@ -76,7 +77,7 @@ const Footer = () => {
               smooth={true}
               duration={800}
             >
-              Contact
+              {t("NavBar.Contact")}
             </Link>
           </div>
         </div>
