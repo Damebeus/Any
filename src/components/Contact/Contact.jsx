@@ -11,7 +11,7 @@ import Swal from "sweetalert2";
 
 const Contact = () => {
   useEffect(() => {
-    Aos.init({ duration: 3000, once: false });
+    Aos.init({ duration: 2000, once: false });
   }, []);
   const [state, handleSubmit] = useForm("xqkjzvoq");
   if (state.succeeded) {
