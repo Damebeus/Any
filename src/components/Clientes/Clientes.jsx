@@ -13,6 +13,8 @@ const Clientes = () => {
   };
   return (
     <section className={style.section} id='Clientes'>
+      <div className={style.espacio}></div>
+
       <div className={style.container}>
         <h2> Nuestros clientes </h2>
         <Slider {...settings}>

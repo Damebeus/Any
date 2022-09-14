@@ -1,5 +1,10 @@
+.section {
+  background-color: #fff;
+}
+.espacio {
+  height: 10vh;
+}
 .container {
-  margin-top: 150px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;

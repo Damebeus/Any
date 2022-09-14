@@ -1,10 +1,5 @@
 .section {
-  background: rgb(173, 165, 165);
-  background: linear-gradient(
-    0deg,
-    rgba(201, 194, 194, 0.776) 0%,
-    rgba(255, 255, 255, 1) 81%
-  );
+  background-color: #fff;
   min-height: 440px;
 }
 .espacio {
