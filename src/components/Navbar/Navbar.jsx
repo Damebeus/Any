@@ -18,7 +18,6 @@ const Navbarr = () => {
 
   return (
     <div className={navbar ? style.container : style.container2}>
-      <div className={style.mobile}></div>
       <div className={style.logo}>
         <img src={logo} />
       </div>

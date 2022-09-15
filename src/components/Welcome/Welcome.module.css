@@ -121,14 +121,7 @@ p {
     margin-top: 0px;
   }
 }
-@media screen and (max-height: 655px) {
-  .subcontenedor {
-    margin-top: 15%;
-  }
-}
-.espacio2 {
-  position: absolute;
-}
+
 .lenguajes ul li {
   background-color: #2e518b;
 }
@@ -186,83 +179,14 @@ p {
 .idiomas {
   position: fixed;
   z-index: 9999999999;
+  top: 0;
   right: 0;
-  margin-right: 45px;
-  margin-top: 45px;
+  height: 5vh;
+  margin-right: 10px;
+  margin-top: 10px;
 }
-@media screen and (max-width: 897px) {
-  .contenedor {
-    min-height: 667px;
-    max-height: 875px;
-    max-width: 414px;
-    background-image: url("https://w0.peakpx.com/wallpaper/538/394/HD-wallpaper-blue-particles-black-circle-dark-light-night-white.jpg");
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-  }
-  .contVideo {
-    display: none;
-  }
-  .dinamico {
-    display: flex;
-    margin: 0;
-    height: 100px;
-    color: var(--naranjita);
-    text-transform: uppercase;
-    font-size: 60px;
-    line-height: 60px;
-    font-family: "Kinsans";
-    overflow: hidden;
-    margin-top: -20px;
-    margin-left: -50px;
-  }
-  .dinamico ul {
-    list-style: none;
-
-    animation: transicion 7s infinite;
-  }
-  .dinamico ul,
-  p {
-    margin: 0;
-  }
-  @keyframes transicion {
-    0% {
-      margin-top: 0;
-    }
-    20% {
-      margin-top: 0;
-    }
-    25% {
-      margin-top: -60px;
-    }
-    50% {
-      margin-top: -60px;
-    }
-    55% {
-      margin-top: -120px;
-    }
-    80% {
-      margin-top: -120px;
-    }
-    85% {
-      margin-top: -60px;
-    }
-    95% {
-      margin-top: -60px;
-    }
-    100% {
-      margin-top: 0px;
-    }
-  }
-  .titulo {
-    margin-left: -40px;
-  }
-  .slogan {
-    color: #fff;
-    letter-spacing: 4px;
-    font-size: 10px;
-    width: 100%;
-    margin-left: -40px;
-    margin-top: 60px;
+@media screen and (max-height: 655px) {
+  .subcontenedor {
+    margin-top: 15%;
   }
 }
