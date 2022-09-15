@@ -51,5 +51,8 @@
         "Telefono": "Phone : +12 34567898",
         "Email": "E-mail: anytechno@gmail.com",
         "Direccion":"Address: Avenida Siempreviva 123"
+    },
+    "Lenguaje":{
+        "Boton": "Select language"
     }
 }

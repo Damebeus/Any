@@ -2,7 +2,7 @@
     "NavBar":{
         "Home":"Menu",
         "About":"Nous",
-        "Services":"Avantages",
+        "Services":"Services",
         "Questions":"Des questions",
         "Contact":"Contacter"
     },
@@ -51,6 +51,9 @@
         "Telefono": "Téléphoner : +12 34567898",
         "Email": "E-mail: anytechno@gmail.com",
         "Direccion":"Adresse: Avenida Siempreviva 123"
+    },
+    "Lenguaje":{
+        "Boton": "Choisir la langue"
     }
 
 

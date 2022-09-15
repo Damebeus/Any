@@ -46,7 +46,7 @@ const Welcome = () => {
           <div className={style.lenguajes}>
             <ul>
               <li>
-                <a href='#'>Select language</a>
+                <a href='#'>{t("Lenguaje.Boton")}</a>
                 <ul>
                   <li href='#' onClick={() => i18n.changeLanguage("en")}>
                     <a>English</a>
