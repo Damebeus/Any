@@ -42,6 +42,16 @@ const Footer = () => {
             <Link
               activeClass={style.selectedLink}
               className={style.links}
+              to='Home'
+              spy={true}
+              smooth={true}
+              duration={800}
+            >
+              {t("NavBar.Home")}
+            </Link>
+            <Link
+              activeClass={style.selectedLink}
+              className={style.links}
               to='About'
               spy={true}
               smooth={true}

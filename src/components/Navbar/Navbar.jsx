@@ -4,7 +4,7 @@ import style from "./Navbar.module.css";
 import logo from "../../assets/horizontalblack.png";
 import { useTranslation } from "react-i18next";
 
-const Navbar = () => {
+const Navbarr = () => {
   const { t, i18n } = useTranslation("global");
   const [navbar, setNavbar] = useState(false);
   const changeBgc = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
 
   return (
     <div className={navbar ? style.container : style.container2}>
+      <div className={style.mobile}></div>
       <div className={style.logo}>
         <img src={logo} />
       </div>
@@ -77,4 +78,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbarr;

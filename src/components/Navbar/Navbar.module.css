@@ -61,3 +61,18 @@
 .logo img {
   max-height: 9vh;
 }
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 896px) {
+  .mobile {
+    display: block;
+  }
+  .botones {
+    display: none;
+  }
+  .container2 {
+    background-color: rgb(17, 16, 16);
+  }
+}
