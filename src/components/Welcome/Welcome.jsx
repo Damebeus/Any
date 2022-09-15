@@ -42,6 +42,29 @@ const Welcome = () => {
             </Link>
           </div>
         </div>
+        <div className={style.idiomas}>
+          <div className={style.lenguajes}>
+            <ul>
+              <li>
+                <a href='#'>Select language</a>
+                <ul>
+                  <li href='#' onClick={() => i18n.changeLanguage("en")}>
+                    <a>English</a>
+                  </li>
+                  <li href='#' onClick={() => i18n.changeLanguage("es")}>
+                    <a>Español</a>
+                  </li>
+                  <li href='#' onClick={() => i18n.changeLanguage("fr")}>
+                    <a>Français</a>
+                  </li>
+                  <li href='#' onClick={() => i18n.changeLanguage("br")}>
+                    <a>Português</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -126,3 +126,67 @@ p {
     margin-top: 15%;
   }
 }
+.espacio2 {
+  position: absolute;
+}
+.lenguajes ul li {
+  background-color: #2e518b;
+}
+
+.lenguajes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lenguajes ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.lenguajes ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.lenguajes ul li:hover {
+  background: #5b78a7;
+}
+
+.lenguajes ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+.lenguajes ul ul li {
+  float: none;
+  width: 150px;
+}
+
+.lenguajes ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+.lenguajes ul li:hover > ul {
+  display: block;
+}
+.idiomas {
+  position: fixed;
+  z-index: 9999999999;
+  right: 0;
+  margin-right: 45px;
+  margin-top: 45px;
+}

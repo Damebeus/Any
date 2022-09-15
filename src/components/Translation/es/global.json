@@ -25,11 +25,11 @@
     "Servicios":{
         "Titulo":"Nuestros servicios",
         "Item1": "Ingenieria de software",
-        "Item2": "Seguridad informatica",
+        "Item2": "Seguridad informática",
         "Item3": "Mantenimiento de programas",
         "Item4": "Diseño web",
         "Item5": "Trabajos Personalizados",
-        "Item6": "Actualizacion"
+        "Item6": "Actualización"
     },
     "Clientes":{
         "Titulo":"Nuestros clientes"

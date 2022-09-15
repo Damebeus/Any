@@ -11,7 +11,7 @@ import global_fr from "../src/components/Translation/fr/global.json";
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "fr",
+  lng: "en",
   resources: {
     es: {
       global: global_es,
