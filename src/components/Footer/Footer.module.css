@@ -55,6 +55,7 @@
   color: white;
   text-decoration: none !important;
   align-items: center;
+  user-select: none;
 }
 
 .links:hover {
