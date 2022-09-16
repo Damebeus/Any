@@ -195,13 +195,15 @@ p {
     min-height: 667px;
     max-height: 875px;
     max-width: 414px;
-    background-image: url("https://w0.peakpx.com/wallpaper/538/394/HD-wallpaper-blue-particles-black-circle-dark-light-night-white.jpg");
+    /*  background-image: url("https://w0.peakpx.com/wallpaper/538/394/HD-wallpaper-blue-particles-black-circle-dark-light-night-white.jpg");
     background-size: cover;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; */
   }
   .contVideo {
-    display: none;
+    min-height: 667px;
+    max-height: 875px;
+    max-width: 414px;
   }
   .dinamico {
     display: flex;
