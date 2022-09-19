@@ -41,6 +41,10 @@
 .fuente {
   font-family: "Kinsans";
 }
+.espacio2 {
+  display: none;
+}
+
 @media screen and (max-height: 897px) {
   .section {
     display: flex;
@@ -72,5 +76,9 @@
   }
   .espacio {
     display: none;
+  }
+  .espacio2 {
+    display: block;
+    height: 50px;
   }
 }
