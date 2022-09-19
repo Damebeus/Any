@@ -74,6 +74,7 @@ const Servicios = () => {
           </div>
         </div>
       </div>
+      <div className={style.espacio2}></div>
     </section>
   );
 };

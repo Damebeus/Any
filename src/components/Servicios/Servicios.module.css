@@ -39,6 +39,9 @@
 .columna2 {
   margin-top: 50px;
 }
+.espacio2 {
+  display: none;
+}
 /* .columna2 img {
   animation: rotation 2s infinite linear;
 }
@@ -86,6 +89,10 @@
   }
   .espacio {
     display: none;
+  }
+  .espacio2 {
+    display: block;
+    height: 60px;
   }
 }
 @media screen and (max-height: 700px) {
