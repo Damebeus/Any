@@ -170,7 +170,7 @@ textarea {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin-top: 5%;
+    margin-top: -2%;
   }
   .nombres {
     display: flex;
@@ -184,11 +184,17 @@ textarea {
     margin-top: 0px;
   }
   .formInput {
-    max-width: 220px;
+    max-width: 320px;
     margin-left: 30px;
   }
+  .formInput input {
+    max-width: 300px;
+    margin-left: 10px;
+  }
   .formGroup textarea {
-    width: 350px;
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 300px;
     min-height: 15vh;
     max-height: 30vh;
     border: 2px solid var(--naranjita);
