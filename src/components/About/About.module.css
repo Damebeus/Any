@@ -80,6 +80,9 @@
     max-width: 414px;
     position: relative;
     overflow: hidden;
+    margin: 0px 0px;
+    padding: 0px 10px;
+    box-sizing: border-box;
   }
   .foto img {
     position: absolute;

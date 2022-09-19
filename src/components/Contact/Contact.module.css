@@ -80,7 +80,7 @@ textarea {
 }
 .formGroup textarea {
   user-select: none;
-  resize: vertical;
+  resize: none;
   width: 800px;
   min-height: 15vh;
   max-height: 30vh;

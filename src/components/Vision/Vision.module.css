@@ -124,7 +124,10 @@
   .contenedor {
     max-height: 875px;
     margin-left: 10px;
-    width: 90%;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 10px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-direction: column;
