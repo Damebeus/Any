@@ -115,4 +115,20 @@
     margin-top: 500px;
     margin-left: -340px;
   }
+  .lorem {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .titulo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #898d8b;
+    text-align: center;
+  }
+  .subtitulo {
+    text-align: center;
+
+    font-size: 10px;
+    letter-spacing: 5px;
+  }
 }
