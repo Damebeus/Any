@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import style from "./Footer.module.css";
 import { useTranslation } from "react-i18next";
+import logo from "../../assets/blacklogo.png";
 
 const Footer = () => {
   const { t, i18n } = useTranslation("global");
@@ -91,12 +92,24 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <p>© Any technology 2022. Todos los derechos reservados</p>
+        <p>© Any technology 2022.</p>
       </div>
       <div className={style.mobile}>
         <div className={style.blanco}></div>
 
-        <div className={style.celeste}></div>
+        <div className={style.celeste}>
+          <img src={logo} />
+          <div className={style.contacto}>
+            <ul>
+              <li> Phone:</li>
+              <li>+12 34567898</li>
+              <li>E-mail:</li>
+              <li>anytechno@gmail.com</li>
+              <li>Address:</li>
+              <li>Avenida Siempreviva 123</li>
+            </ul>
+          </div>
+        </div>
         <div className={style.negro}>
           <div className={style.botoncitos}>
             <a href='https://www.instagram.com/damian_ebeus/' target='_blank'>
@@ -106,6 +119,9 @@ const Footer = () => {
               <AiFillLinkedin />
             </a>
           </div>
+        </div>
+        <div className={style.derechos}>
+          <p>© Any technology 2022. </p>
         </div>
       </div>
     </section>

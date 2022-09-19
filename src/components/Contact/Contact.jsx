@@ -81,6 +81,9 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <div className={style.mouseScroll}>
+          <div className={style.arrowScroll}></div>
+        </div>
       </div>
     </section>
   );
