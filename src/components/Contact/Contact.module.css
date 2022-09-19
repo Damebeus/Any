@@ -149,3 +149,47 @@ textarea {
     margin-bottom: 42vh;
   }
 }
+@media screen and (max-height: 897px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    max-width: 414px;
+    position: relative;
+    overflow: hidden;
+  }
+  .titulo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #898d8b;
+    margin-top: 20px;
+  }
+  .columnas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 5%;
+  }
+  .nombres {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    /*   margin-top: 30px; */
+  }
+  .formInput {
+    max-width: 250px;
+    margin-left: 30px;
+  }
+  .formGroup textarea {
+    width: 350px;
+    min-height: 15vh;
+    max-height: 30vh;
+    border: 2px solid var(--naranjita);
+  }
+}
