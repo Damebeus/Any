@@ -176,20 +176,24 @@ textarea {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-bottom: -10px;
   }
   .contacto {
     display: flex;
     flex-direction: column;
-    /*   margin-top: 30px; */
+    margin-top: 0px;
   }
   .formInput {
-    max-width: 250px;
+    max-width: 220px;
     margin-left: 30px;
   }
   .formGroup textarea {
-    width: 350px;
+    width: 330px;
     min-height: 15vh;
     max-height: 30vh;
     border: 2px solid var(--naranjita);
+  }
+  .formGroup {
+    margin-top: 20px;
   }
 }
