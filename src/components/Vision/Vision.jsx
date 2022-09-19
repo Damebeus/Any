@@ -28,7 +28,9 @@ const Vision = () => {
               <img src={right} />
             </div>
           </div>
-          <img src={our} />
+          <div className={style.our}>
+            <img src={our} />
+          </div>
         </div>
         <div className={style.columna2} data-aos='fade-left'>
           <div className={style.comillas}>
