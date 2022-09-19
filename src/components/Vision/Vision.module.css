@@ -139,3 +139,38 @@
     margin-top: 40px;
   }
 }
+@media screen and (max-height: 700px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    min-height: 665px;
+    max-height: 670px;
+    max-width: 375px;
+    position: relative;
+    overflow: hidden;
+  }
+  .izquierda img {
+    animation: float 3s ease-in-out infinite;
+    height: 80px;
+    margin-left: 0px;
+  }
+  .derecha img {
+    animation: float 3s ease-in-out infinite;
+    height: 80px;
+    margin-left: 150px;
+  }
+  .our img {
+    height: 260px;
+    margin-left: 40px;
+  }
+  .titulo {
+    margin-top: -10px;
+  }
+  .comillas {
+    margin-top: -10px;
+    opacity: 0.3;
+  }
+  .parrafo {
+    margin-top: 25px;
+  }
+}

@@ -27,7 +27,9 @@ const Preguntas = () => {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography>Accordion 1</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 1</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -45,7 +47,9 @@ const Preguntas = () => {
                     aria-controls='panel2a-content'
                     id='panel2a-header'
                   >
-                    <Typography>Accordion 2</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 2</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -63,7 +67,9 @@ const Preguntas = () => {
                     aria-controls='panel2a-content'
                     id='panel2a-header'
                   >
-                    <Typography>Accordion 2</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 2</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -81,7 +87,9 @@ const Preguntas = () => {
                     aria-controls='panel2a-content'
                     id='panel2a-header'
                   >
-                    <Typography>Accordion 2</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 2</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -102,7 +110,9 @@ const Preguntas = () => {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography>Accordion 1</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 1</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -120,7 +130,9 @@ const Preguntas = () => {
                     aria-controls='panel2a-content'
                     id='panel2a-header'
                   >
-                    <Typography>Accordion 2</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 2</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -138,7 +150,9 @@ const Preguntas = () => {
                     aria-controls='panel2a-content'
                     id='panel2a-header'
                   >
-                    <Typography>Accordion 2</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 2</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -156,7 +170,9 @@ const Preguntas = () => {
                     aria-controls='panel2a-content'
                     id='panel2a-header'
                   >
-                    <Typography>Accordion 2</Typography>
+                    <div className={style.fuente}>
+                      <Typography>Accordion 2</Typography>
+                    </div>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>

@@ -41,3 +41,8 @@
   text-align: center;
   user-select: none;
 }
+@media screen and (max-height: 897px) {
+  .section {
+    display: none;
+  }
+}

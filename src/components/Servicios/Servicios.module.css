@@ -85,3 +85,9 @@
     text-align: center;
   }
 }
+@media screen and (max-height: 700px) {
+  .columna2 {
+    margin-left: 5px;
+    margin-top: -100px;
+  }
+}

@@ -28,7 +28,6 @@
 }
 .menu1 {
   width: 500px;
-
   padding: 25px;
 }
 .menu2 {
@@ -39,8 +38,36 @@
 .individual {
   margin-bottom: 20px;
 }
-@media screen and (max-height: 655px) {
+.fuente {
+  font-family: "Kinsans";
+}
+@media screen and (max-height: 897px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    min-height: 650px;
+    max-width: 414px;
+    position: relative;
+    overflow: hidden;
+  }
   .titulo {
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .acordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu1 {
+    width: 330px;
+    padding: 0;
+    margin-left: 35px;
+  }
+  .menu2 {
+    padding: 0;
+    margin-left: 35px;
+    width: 330px;
   }
 }
