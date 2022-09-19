@@ -188,7 +188,7 @@ textarea {
     margin-left: 30px;
   }
   .formGroup textarea {
-    width: 330px;
+    width: 350px;
     min-height: 15vh;
     max-height: 30vh;
     border: 2px solid var(--naranjita);
