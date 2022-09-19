@@ -50,3 +50,38 @@
     transform: rotate(360deg);
   }
 } */
+@media screen and (max-height: 897px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    max-height: 875px;
+    max-width: 414px;
+    position: relative;
+    overflow: hidden;
+  }
+  .columna2 {
+    position: absolute;
+    opacity: 0.3;
+    margin-left: 28px;
+    margin-top: -150px;
+  }
+  .columna1 h1 {
+    max-width: 414px;
+    margin-left: 1px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 35px;
+  }
+  .subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .item {
+    text-align: center;
+  }
+}

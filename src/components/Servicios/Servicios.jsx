@@ -11,8 +11,6 @@ const Servicios = () => {
       <div className={style.espacio}></div>
 
       <div className={style.container}>
-        <div className={style.titulo}></div>
-
         <div className={style.subcontainer}>
           <div className={style.columna1}>
             <h1>{t("Servicios.Titulo")}</h1>
