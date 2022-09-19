@@ -275,7 +275,7 @@ p {
     display: none;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
   .slogan {
     color: #fff;
     letter-spacing: 4px;
