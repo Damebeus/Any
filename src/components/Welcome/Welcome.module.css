@@ -272,7 +272,7 @@ p {
     margin-left: -40px;
   }
   .idiomas {
-    left: 0;
+    display: none;
   }
 }
 @media screen and (max-height: 700px) {
@@ -297,6 +297,9 @@ p {
     font-size: 40px;
     line-height: 50px;
     height: 40px;
+  }
+  .idiomas {
+    display: none;
   }
 
   @keyframes transicion {
@@ -333,8 +336,6 @@ p {
     margin-left: -40px;
   }
   .idiomas {
-    left: 0;
-    padding: 0;
-    margin-left: 10px;
+    display: none;
   }
 }
