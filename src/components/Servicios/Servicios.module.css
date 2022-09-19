@@ -84,6 +84,9 @@
   .item {
     text-align: center;
   }
+  .espacio {
+    display: none;
+  }
 }
 @media screen and (max-height: 700px) {
   .columna2 {
