@@ -93,6 +93,21 @@ const Footer = () => {
         </div>
         <p>© Any technology 2022. Todos los derechos reservados</p>
       </div>
+      <div className={style.mobile}>
+        <div className={style.blanco}></div>
+
+        <div className={style.celeste}></div>
+        <div className={style.negro}>
+          <div className={style.botoncitos}>
+            <a href='https://www.instagram.com/damian_ebeus/' target='_blank'>
+              <AiOutlineInstagram />
+            </a>
+            <a href='https://www.linkedin.com/in/leandrogallo/' target='_blank'>
+              <AiFillLinkedin />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

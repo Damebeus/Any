@@ -190,7 +190,7 @@ p {
     margin-top: 15%;
   }
 }
-@media screen and (max-height: 897px) {
+@media screen and (max-width: 420px) {
   .contenedor {
     min-height: 667px;
     max-height: 875px;
@@ -275,7 +275,7 @@ p {
     display: none;
   }
 }
-@media screen and (max-height: 700px) {
+@media screen and (max-width: 380px) {
   .slogan {
     color: #fff;
     letter-spacing: 4px;

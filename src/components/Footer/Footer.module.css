@@ -104,11 +104,50 @@
   color: var(--grisaseo);
   transition: 0.5s;
 }
+.mobile {
+  display: none;
+}
 @media screen and (max-height: 699px) {
   .gradiante {
     height: 40vh;
   }
   .container {
     height: 45vh;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    min-height: 400px;
+    /*  background-color: turquoise; */
+  }
+  .section {
+    width: 100%;
+    z-index: auto;
+    position: static;
+    bottom: 0;
+  }
+  .celeste {
+    min-height: 300px;
+    max-width: 414px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(44, 56, 146);
+    background: linear-gradient(
+      90deg,
+      rgba(44, 56, 146, 1) 32%,
+      rgba(75, 156, 219, 1) 100%
+    );
+  }
+  .negro {
+    background-color: var(--grisaseo);
+    position: absolute;
+    height: 80px;
+    width: 75%;
+    right: 0;
+    margin-top: -40px;
   }
 }

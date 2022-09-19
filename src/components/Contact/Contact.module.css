@@ -149,7 +149,7 @@ textarea {
     margin-bottom: 42vh;
   }
 }
-@media screen and (max-height: 897px) {
+@media screen and (max-width: 420px) {
   .section {
     display: flex;
     flex-direction: column;
@@ -157,6 +157,9 @@ textarea {
     max-width: 414px;
     position: relative;
     overflow: hidden;
+  }
+  .container {
+    margin-bottom: 5vh;
   }
   .titulo {
     font-size: 25px;

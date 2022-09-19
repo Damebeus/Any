@@ -71,7 +71,7 @@
 .boton button:hover {
   transform: scale(1.1);
 }
-@media screen and (max-height: 897px) {
+@media screen and (max-width: 420px) {
   .section {
     display: flex;
     flex-direction: column;
