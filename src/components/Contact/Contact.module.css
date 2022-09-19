@@ -249,3 +249,24 @@ textarea {
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 370px) {
+  .section {
+    min-height: 800px;
+    max-width: 370px;
+  }
+  .formInput {
+    max-width: 300px;
+    margin-left: 20px;
+  }
+  .formInput input {
+    max-width: 280px;
+    margin-left: 10px;
+  }
+  .formGroup textarea {
+    margin-left: 10px;
+    width: 280px;
+    min-height: 15vh;
+    max-height: 30vh;
+    border: 2px solid var(--naranjita);
+  }
+}

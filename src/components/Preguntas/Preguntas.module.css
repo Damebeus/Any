@@ -82,3 +82,22 @@
     height: 60px;
   }
 }
+@media screen and (max-width: 370px) {
+  .section {
+    min-height: 870px;
+    max-width: 350px;
+    box-sizing: border-box;
+    margin: 0px 0px 0px;
+    padding: 0px 10px;
+  }
+  .menu1 {
+    width: 300px;
+    padding: 0;
+    margin-left: 20px;
+  }
+  .menu2 {
+    padding: 0;
+    margin-left: 20px;
+    width: 300px;
+  }
+}
