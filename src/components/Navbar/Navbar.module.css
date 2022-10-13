@@ -65,6 +65,23 @@
 .mobile {
   display: none;
 }
+@media screen and (max-width: 1025px) {
+  .mobile {
+    display: block;
+  }
+  .logo img {
+    display: none;
+  }
+  /*   .botones {
+    display: none;
+  }
+  .container2 {
+    display: none;
+  }
+  .container {
+    display: none;
+  } */
+}
 
 @media screen and (max-width: 415px) {
   .mobile {

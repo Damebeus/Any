@@ -142,6 +142,35 @@
     margin-top: 40px;
   }
 }
+@media screen and (max-width: 1250px) {
+  .section {
+    min-height: 550px;
+    max-height: 750px;
+  }
+  .izquierda img {
+    height: 80px;
+    margin-left: -5px;
+  }
+  .derecha img {
+    height: 80px;
+    margin-left: 130px;
+  }
+  .our img {
+    height: 270px;
+    margin-left: 10px;
+  }
+  .columna1 {
+    margin-top: 150px;
+    max-width: 50%;
+    user-select: none;
+  }
+}
+@media screen and (max-width: 810px) {
+  .section {
+    min-height: 650px;
+    max-height: 850px;
+  }
+}
 @media screen and (max-width: 380px) {
   .section {
     display: flex;

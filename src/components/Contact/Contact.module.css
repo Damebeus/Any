@@ -270,3 +270,31 @@ textarea {
     border: 2px solid var(--naranjita);
   }
 }
+@media screen and (max-width: 1500px) {
+  .mouseScroll {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .mouseScroll {
+    display: none;
+  }
+  .section {
+    max-height: 800px;
+    max-width: 1030px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .section {
+    max-width: 810px;
+  }
+  .formInput {
+    width: 90%;
+  }
+  .formInput input {
+    width: 100%;
+  }
+  .formGroup textarea {
+    width: 100%;
+  }
+}

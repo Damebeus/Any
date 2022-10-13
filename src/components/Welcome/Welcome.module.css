@@ -190,15 +190,79 @@ p {
     margin-top: 15%;
   }
 }
+@media screen and (max-width: 1000px) {
+  .contenedor {
+    min-height: 667px;
+    max-height: 875px;
+    max-width: 1000px;
+  }
+  .contVideo {
+    min-height: 667px;
+    max-height: 875px;
+    max-width: 1000px;
+  }
+  .dinamico {
+    display: flex;
+    margin: 0;
+    height: 80px;
+    color: var(--naranjita);
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: "Kinsans";
+    overflow: hidden;
+    margin-top: -40px;
+    margin-left: -10px;
+  }
+  @keyframes transicion {
+    0% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: 0;
+    }
+    25% {
+      margin-top: -80px;
+    }
+    50% {
+      margin-top: -80px;
+    }
+    55% {
+      margin-top: -160px;
+    }
+    80% {
+      margin-top: -160px;
+    }
+    85% {
+      margin-top: -80px;
+    }
+    95% {
+      margin-top: -80px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  .titulo {
+    /*  margin-left: -40px; */
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .contenedor {
+    min-height: 850px;
+    max-height: 935px;
+    max-width: 815px;
+  }
+  .idiomas {
+    display: none;
+  }
+}
 @media screen and (max-width: 420px) {
   .contenedor {
     min-height: 667px;
     max-height: 875px;
     max-width: 414px;
-    /*  background-image: url("https://w0.peakpx.com/wallpaper/538/394/HD-wallpaper-blue-particles-black-circle-dark-light-night-white.jpg");
-    background-size: cover;
-    position: relative;
-    overflow: hidden; */
   }
   .contVideo {
     min-height: 667px;
